@@ -1,19 +1,19 @@
 PantoneColor
 ============
 
-A helper class for using Pantone Colors in iOS.
+**A helper class for using Pantone Colors in iOS.**
 
 Usage
 -----
 
-Import `PantoneColor.h` in your implementation file, and to bring a color, use:
+Import `PantoneColor.h` in your implementation file, and to bring a color, use something like:
 
 ```UIColor *myColor = [PantoneColor solidCoatedColor:pantoneSolidCoatedColorCoolGray7C];```
 
 Notes
 -----
 
-For now, `PantoneColor` only has the following colors from the Solid Coated Color palette.
+For now, **PantoneColor** only has the following colors from the Solid Coated Color palette.
  - Black (2C-7C)
  - Warm Gray (1C-11C)
  - Cool Gray (1C-11C)
